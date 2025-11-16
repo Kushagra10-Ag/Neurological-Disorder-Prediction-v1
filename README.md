@@ -76,6 +76,6 @@ It is not a medical diagnostic tool.
 
 🤝 Contributors
 
-Vishva Chauvisa
-Kushagra Agrawal
+Vishva Chauvisa, 
+Kushagra Agrawal, 
 Viduit Dev Raj Saini
