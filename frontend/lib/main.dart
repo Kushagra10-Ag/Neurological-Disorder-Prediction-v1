@@ -102,7 +102,32 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
           // Floating particles
           const Positioned.fill(child: AnimatedParticles()),
-
+          Positioned(
+              top: 28,
+              left: 45,
+              child: Text(
+                "🧬 NeuroAI Detect",
+                style: TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.w700,
+                  color: const Color(0xFF1C6DD0),
+                  letterSpacing: 0.8,
+                ),
+              ),
+            ),
+            /// Footer
+          Positioned(
+            bottom: 16,
+            left: 45,
+            child: Text(
+              "2025 NeuroAI — Powered by Deep Learning",
+              style: TextStyle(
+                color: Colors.black54,
+                fontSize: 13,
+                letterSpacing: 0.3,
+              ),
+            ),
+          ),
           // Main Form
           Center(
             child: Container(
