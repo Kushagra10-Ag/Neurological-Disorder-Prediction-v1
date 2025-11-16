@@ -1,0 +1,43 @@
+name: frontend
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_cube: 0.1.1
+  image_picker: ^0.8.7+5
+  http: ^1.1.0
+  mime: ^1.0.2
+  http_parser: ^4.0.2
+
+  # ✅ NEW dependencies for PDF download
+  path_provider: ^2.1.4
+  open_filex: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/3d/A_hyper_realistic_3D__1206120418_refine.obj
+    - assets/3d/model.mtl
+    - assets/3d/Image_0.001.jpg
+    - assets/images/mri doctor.webp
+    - assets/images/stethoscope.webp
+    - assets/images/aunty.jpg
+    
+  
