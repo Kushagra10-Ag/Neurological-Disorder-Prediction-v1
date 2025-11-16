@@ -45,7 +45,7 @@ sklearn – Metrics & evaluation
 
 Public MRI datasets were used for Tumor, Alzheimer’s, Stroke, and MS.
 
-Dataset link:
+Dataset link:https://drive.google.com/drive/folders/1XByzyY-psmYN8MyM08Et7-fZaMETtqnU?usp=sharing
 
 
 🧠 Model
